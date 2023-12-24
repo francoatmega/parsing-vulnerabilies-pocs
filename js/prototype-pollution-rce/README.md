@@ -1,12 +1,14 @@
 ### PoC of RCE with prototype pollution
 
-This PoC has made based on the research and work of this articles, all credit for the discovers and research.
+This Proof of Concept (PoC) is based on the research and findings presented in the following [article](https://github.com/yuske/silent-spring/blob/master/silent-spring-full-version.pdf), and all credit goes to the authors for their discoveries and research.
 
-We always saw that prototype pollution could lead to RCE, the main samples provide was if a poison property was used with eval of it's similars. But the article '' provide a new away and attack suffarce for prototype pollution using gadgets. This gadgets can be from a package or even from node internals itself.
+Traditionally, prototype pollution leading to Remote Code Execution (RCE) was often associated with scenarios where a poisonous property, typically processed with 'eval' or similar functions, was exploited. However, the article [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js] introduces a novel approach and attack surface for prototype pollution by utilizing gadgets. These gadgets can originate from a package or even Node.js internals.
 
-This PoC tries to simulate an application that resize images (but can be more complex tasks) using GM with CLI to achieve that. The application also requires a user registration. (Only for PoC purpose, you can use your imagine and think in a more fancy vulnerable application)
+This PoC aims to emulate an application that resizes images (though the concept can be extended to more complex tasks) using GraphicsMagick (GM) with Command Line Interface (CLI). The application also necessitates user registration. (Note: This is for PoC purposes only; feel free to envision a more sophisticated and vulnerable application for your exploration.)
 
-[PoC Video](https://github.com/francoatmega/parsing-vulnerabilities-pocs/blob/main/js/prototype-pollution-rce/video.mov)
+PoC video:
+
+https://github.com/francoatmega/parsing-vulnerabilities-pocs/assets/8761008/658cd5f7-a4de-4a6a-8dbe-5a42095a34ea
 
 ## How to run
 
