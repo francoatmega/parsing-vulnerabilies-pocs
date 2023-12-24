@@ -6,7 +6,7 @@ We always saw that prototype pollution could lead to RCE, the main samples provi
 
 This PoC tries to simulate an application that resize images (but can be more complex tasks) using GM with CLI to achieve that. The application also requires a user registration. (Only for PoC purpose, you can use your imagine and think in a more fancy vulnerable application)
 
-./video.mov
+[PoC Video](https://github.com/francoatmega/parsing-vulnerabilities-pocs/blob/main/js/prototype-pollution-rce/video.mov)
 
 ## How to run
 
