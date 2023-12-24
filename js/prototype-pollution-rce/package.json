@@ -5,5 +5,8 @@
     "express": "^4.18.2",
     "lodash": "4.16.1",
     "node-inspect": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node vulnerable-api.js"
   }
 }
