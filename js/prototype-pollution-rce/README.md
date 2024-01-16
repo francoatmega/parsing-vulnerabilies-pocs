@@ -24,6 +24,6 @@ To run the PoC follow the steps:
 
 For this PoC works some preconditions are needed:
 
-* A prototype pollution vulnerability (In this PoC we are the vulnerable version of lodash 4.17 and above)
+* A prototype pollution vulnerability (In this PoC we are the vulnerable version of lodash 4.17 and above [CVE-2018-3721])
 * A user controlled input to exploit the vulnerability (In this PoC the route PUT /users/:id)
 * A gadget to achive RCE (In this case the endpoint POST /resise using execSync)
